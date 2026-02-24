@@ -1,6 +1,6 @@
 from src.process import process
 
-def test_addition(a, b):
+def test_addition():
     # Arrange
     a = 5
     b = 3
@@ -11,7 +11,7 @@ def test_addition(a, b):
     # Assert
     assert result == validate_result
 
-def test_subtraction(a, b):
+def test_subtraction():
     # Arrange
     a = 5
     b = 3
