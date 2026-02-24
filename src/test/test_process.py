@@ -1,4 +1,4 @@
-def test_addition(a, b)
+def test_addition(a, b):
     # Arrange
     a = 5
     b = 3
@@ -9,7 +9,7 @@ def test_addition(a, b)
     # Assert
     assert result == validate_result
 
-def test_subtraction(a, b)
+def test_subtraction(a, b):
     # Arrange
     a = 5
     b = 3
